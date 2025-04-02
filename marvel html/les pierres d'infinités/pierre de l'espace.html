@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre de l'Espace</title>
+    <link rel="stylesheet" href="../perso-marvel.css">
+    <style>
+        /* Couleurs spécifiques pour la Pierre de l'Espace */
+        body {
+            background-image: url('cover.jpg'); /* Image de fond pour la Pierre de l'Espace */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #e0e0e0; /* Texte gris clair */
+        }
+
+        header {
+            background-color: #0077ff; /* Bleu pour la Pierre de l'Espace */
+            color: #ffffff; /* Texte blanc */
+            text-transform: uppercase;
+            font-size: 2em;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .info-box {
+            background-color: #2e2e2eb4; /* Gris foncé */
+            border: 2px solid #0077ff; /* Bleu */
+            color: #ffffff;
+        }
+
+        .info-box:hover {
+            background-color: #3a3a3a; /* Gris légèrement plus clair au survol */
+        }
+
+        .history-box, .facts-box, .quotes-box {
+            background-color: #2e2e2e3a; /* Gris foncé */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+        }
+
+        .history-box h2, .facts-box h2, .quotes-box h2 {
+            color: #0077ff; /* Bleu pour les titres */
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #000; /* Fond noir pour les espaces vides */
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pierre de l'Espace</h1>
+    </header>
+    <div class="info-box">
+        <h2>Infos sur la Pierre de l'Espace</h2>
+        <ul>
+            <li><strong>Couleur :</strong> Bleu</li>
+            <li><strong>Pouvoir :</strong> Manipulation de l'espace et téléportation</li>
+            <li><strong>Apparition :</strong> Tesseract</li>
+            <li><strong>Affiliation :</strong> Thanos, Loki, Avengers</li>
+        </ul>
+    </div>
+    <div class="content">
+        <section class="history-box">
+            <h2>Histoire de la Pierre de l'Espace</h2>
+            <p>
+                La Pierre de l'Espace, contenue dans le Tesseract, permet de manipuler l'espace et de se téléporter instantanément. 
+                Elle a été utilisée par Loki pour envahir la Terre et par Thanos pour compléter son Gant de l'Infini.
+            </p>
+        </section>
+        <section class="facts-box">
+            <h2>Faits intéressants</h2>
+            <ul>
+                <li>La Pierre de l'Espace est l'une des six Pierres d'Infinité.</li>
+                <li>Elle a été découverte par le S.H.I.E.L.D. avant d'être volée par Loki.</li>
+                <li>Elle a été utilisée pour ouvrir des portails interdimensionnels.</li>
+                <li>Thanos l'a récupérée après avoir détruit le vaisseau des Asgardiens.</li>
+            </ul>
+        </section>
+        <section class="quotes-box">
+            <h2>Citations célèbres</h2>
+            <ul>
+                <li>"Le Tesseract est une source d'énergie illimitée."</li>
+                <li>"Avec la Pierre de l'Espace, aucun endroit n'est hors de portée."</li>
+                <li>"Elle est la clé pour voyager à travers l'univers."</li>
+            </ul>
+        </section>
+        <section class="gallery-box">
+            <h2>Galerie de la Pierre de l'Espace</h2>
+            <div class="gallery">
+                <img src="space-stone1.jpg" alt="Pierre de l'Espace dans le Tesseract">
+                <img src="space-stone2.jpg" alt="Pierre de l'Espace utilisée par Loki">
+                <img src="space-stone3.jpg" alt="Pierre de l'Espace dans le Gant de l'Infini">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

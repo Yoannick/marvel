@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolverine</title>
+    <link rel="stylesheet" href="../perso-marvel.css">
+    <style>
+        /* Couleurs spécifiques pour Wolverine */
+        body {
+            background-image: url('cover.jpg'); /* Image de fond pour Wolverine */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #e0e0e0; /* Texte gris clair */
+        }
+
+        header {
+            background-color: #ffcc00; /* Jaune pour le header */
+            color: #000000; /* Texte noir */
+            text-transform: uppercase;
+            font-size: 2em;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .info-box {
+            background-color: #2e2e2eb4; /* Gris foncé */
+            border: 2px solid #ffcc00; /* Jaune */
+            color: #ffffff;
+        }
+
+        .info-box:hover {
+            background-color: #3a3a3a; /* Gris légèrement plus clair au survol */
+        }
+
+        .history-box, .facts-box, .quotes-box {
+            background-color: #2e2e2e73; /* Gris foncé */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+        }
+
+        .history-box h2, .facts-box h2, .quotes-box h2 {
+            color: #ffcc00; /* Jaune pour les titres */ 
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #000; /* Fond noir pour les espaces vides */
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+       .rivals {
+          
+           
+            border-radius: 8px; /* Coins arrondis */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre portée */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition pour l'effet de survol */
+        }
+        .rivals:hover {
+            background-image: url('cover.jpg'); /* Image de fond pour Wolverine */
+            background-size: cover;
+            transform: scale(1.1); /* Agrandissement au survol */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Ombre plus prononcée au survol */
+        } 
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wolverine</h1>
+    </header>
+    <div class="info-box">
+        <h2>Infos sur Wolverine</h2>
+        <ul>
+            <li><strong>Nom :</strong> Logan (James Howlett)</li>
+            <li><strong>Statut :</strong> Super-héros</li>
+            <li><strong>Date de naissance :</strong> Inconnue (19e siècle)</li>
+            <li><strong>Occupation :</strong> Membre des X-Men</li>
+            <li><strong>Capacités :</strong> Régénération, griffes en adamantium, sens aiguisés</li>
+            <li><strong>Affiliation :</strong> X-Men, Avengers</li>
+        </ul>
+    </div>
+    <div class="content">
+        <section class="history-box">
+            <h2>Histoire de Wolverine</h2>
+            <p>
+                Logan, connu sous le nom de Wolverine, est un mutant doté d'une capacité de régénération rapide, 
+                de griffes rétractables en adamantium et de sens surdéveloppés. Il a été victime d'expériences 
+                traumatisantes dans le programme Weapon X, qui a renforcé son squelette avec de l'adamantium. 
+                Membre des X-Men, il est un combattant redoutable et un héros complexe.
+            </p>
+        </section>
+        <section class="facts-box">
+            <h2>Faits intéressants</h2>
+            <ul>
+                <li>Wolverine a été créé par Roy Thomas, Len Wein et John Romita Sr. en 1974.</li>
+                <li>Son squelette est recouvert d'adamantium, un métal indestructible.</li>
+                <li>Il a été membre des X-Men, des Avengers et même des Gardiens de la Galaxie.</li>
+                <li>Son âge exact est inconnu, mais il est né au 19e siècle.</li>
+            </ul>
+        </section>
+        <section class="quotes-box">
+            <h2>Citations célèbres</h2>
+            <ul>
+                <li>"Je suis le meilleur dans ce que je fais, mais ce que je fais n'est pas très joli."</li>
+                <li>"Tu veux me tuer ? Bonne chance."</li>
+                <li>"On ne peut pas fuir ce qu'on est."</li>
+                <li>"Les X-Men, c'est ma famille."</li>
+            </ul>
+        </section>
+        <section class="gallery-box">
+            <h2>Galerie des Tenues de Wolverine</h2>
+            <div class="gallery">
+                <img src="wolverine1.jpg" alt="Tenue classique de Wolverine">
+                <img src="wolverine2.jpg" alt="Tenue moderne de Wolverine">
+                <img src="image-removebg-preview (5).png" alt="Tenue de Weapon X">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../perso-marvel.css">
+    <title>Iron Man</title>
+    <style>
+        /* Styles pour la galerie */
+          /* Styles pour la galerie */
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #02010150; /* Fond gris foncé */
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .gallery img {
+        width: 200px;
+        height: 300px;
+        object-fit: contain; /* Affiche l'image entière avec des espaces si nécessaire */
+        border-radius: 8px;
+       
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        background-color: #ffffff00; /* Fond noir pour les espaces vides */
+    }
+
+    .gallery img:hover {
+        background-image: url('co.jpg'); 
+        background-size: cover; /* Recouvre l'image de fond */
+        background-position: center; /* Centre l'image de fond */
+        transform: scale(1.05);
+       
+        transform: scale(1.1);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Iron Man</h1>
+    </header>
+    <div class="info-box">
+        <h2>Infos sur Iron Man</h2>
+        <ul>
+            <li><strong>Nom :</strong> Tony Stark</li>
+            <li><strong>Statut :</strong> Super-héros</li>
+            <li><strong>Date de naissance :</strong> 29 mai 1970</li>
+            <li><strong>Occupation :</strong> PDG de Stark Industries</li>
+            <li><strong>Armure :</strong> Mark LXXXV</li>
+            <li><strong>Affiliation :</strong> Avengers</li>
+        </ul>
+    </div>
+    <div class="content">
+        <section class="history-box">
+            <h2>Histoire d'Iron Man</h2>
+            <p>
+                Tony Stark, un génie milliardaire, a été gravement blessé lors d'une attaque terroriste. 
+                Capturé, il a conçu une armure pour s'échapper et a ensuite perfectionné cette technologie 
+                pour devenir Iron Man. En tant que super-héros, il a joué un rôle clé dans la défense de la Terre 
+                et a cofondé les Avengers. Son sacrifice ultime a sauvé l'univers lors de la bataille contre Thanos.
+            </p>
+        </section>
+        <section class="facts-box">
+            <h2>Faits intéressants</h2>
+            <ul>
+                <li>Iron Man a été créé par Stan Lee, Larry Lieber, Don Heck et Jack Kirby en 1963.</li>
+                <li>Son intelligence artificielle, J.A.R.V.I.S., est devenue Vision dans l'univers cinématographique Marvel.</li>
+                <li>Il a conçu plus de 50 versions différentes de son armure.</li>
+                <li>Son réacteur ARC a été conçu pour maintenir des éclats de métal hors de son cœur.</li>
+            </ul>
+        </section>
+        <section class="quotes-box">
+            <h2>Citations célèbres</h2>
+            <ul>
+                <li>"Je suis Iron Man."</li>
+                <li>"Génie, milliardaire, playboy, philanthrope."</li>
+                <li>"Si nous ne pouvons pas protéger la Terre, soyez sûrs que nous la vengerons."</li>
+                <li>"Part of the journey is the end."</li>
+            </ul>
+        </section>
+        <section class="gallery-box">
+            <h2>Galerie des Tenues d'Iron Man</h2>
+            <div class="gallery">
+                <img src="mark 1.png" alt="Mark I">
+                <img src="mark3.jpg" alt="Mark III">
+                <img src="hulk buster.png" alt="Hulkbuster">
+                <img src="mark50.png" alt="Mark L">
+                <img src="mark85.png" alt="Mark LXXXV">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

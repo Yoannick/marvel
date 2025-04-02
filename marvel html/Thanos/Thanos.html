@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanos</title>
+    <link rel="stylesheet" href="../perso-marvel.css">
+    <style>
+        /* Couleurs spécifiques pour Thanos */
+        body {
+            background-image: url('thanos-bg.jpg'); /* Image de fond pour Thanos */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #e0e0e0; /* Texte gris clair */
+        }
+
+        header {
+            background-color: #4b0082; /* Violet sombre pour le header */
+            color: #ffffff; /* Texte blanc */
+            text-transform: uppercase;
+            font-size: 2em;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .info-box {
+            background-color: #2e2e2eb4; /* Gris foncé */
+            border: 2px solid #4b0082; /* Violet sombre */
+            color: #ffffff;
+        }
+
+        .info-box:hover {
+            background-color: #3a3a3a; /* Gris légèrement plus clair au survol */
+        }
+
+        .history-box, .facts-box, .quotes-box {
+            background-color: #2e2e2e3a; /* Gris foncé */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+        }
+
+        .history-box h2, .facts-box h2, .quotes-box h2 {
+            color: #4b0082; /* Violet sombre pour les titres */
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #000; /* Fond noir pour les espaces vides */
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Thanos</h1>
+    </header>
+    <div class="info-box">
+        <h2>Infos sur Thanos</h2>
+        <ul>
+            <li><strong>Nom :</strong> Thanos</li>
+            <li><strong>Statut :</strong> Vilain</li>
+            <li><strong>Origine :</strong> Titan</li>
+            <li><strong>Occupation :</strong> Conquérant</li>
+            <li><strong>Capacités :</strong> Force surhumaine, intelligence stratégique, manipulation des Pierres d'Infinité</li>
+            <li><strong>Affiliation :</strong> Ordre Noir</li>
+        </ul>
+    </div>
+    <div class="content">
+        <section class="history-box">
+            <h2>Histoire de Thanos</h2>
+            <p>
+                Thanos, surnommé le Titan Fou, est un conquérant intergalactique obsédé par l'équilibre de l'univers. 
+                Il a cherché à rassembler les six Pierres d'Infinité pour effacer la moitié de la population de l'univers. 
+                Malgré sa défaite face aux Avengers, il reste l'un des vilains les plus redoutables de l'univers Marvel.
+            </p>
+        </section>
+        <section class="facts-box">
+            <h2>Faits intéressants</h2>
+            <ul>
+                <li>Thanos a été créé par Jim Starlin et est apparu pour la première fois en 1973.</li>
+                <li>Il est inspiré de Darkseid, un vilain de DC Comics.</li>
+                <li>Son arme emblématique est le Gant de l'Infini, qui lui permet de manipuler la réalité.</li>
+                <li>Il est le père adoptif de Gamora et Nebula.</li>
+            </ul>
+        </section>
+        <section class="quotes-box">
+            <h2>Citations célèbres</h2>
+            <ul>
+                <li>"Je suis inévitable."</li>
+                <li>"L'équilibre parfait est ce que je recherche."</li>
+                <li>"Avec les Pierres d'Infinité, je façonnerai l'univers à mon image."</li>
+                <li>"Le prix de la victoire est élevé, mais il en vaut la peine."</li>
+            </ul>
+        </section>
+        <section class="gallery-box">
+            <h2>Galerie de Thanos</h2>
+            <div class="gallery">
+                <img src="thanos1.jpg" alt="Thanos avec le Gant de l'Infini">
+                <img src="thanos2.jpg" alt="Thanos sur Titan">
+                <img src="thanos3.jpg" alt="Thanos en combat">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

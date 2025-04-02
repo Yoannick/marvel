@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawkeye</title>
+    <link rel="stylesheet" href="../perso-marvel.css">
+    <style>
+        /* Couleurs spécifiques pour Hawkeye */
+        body {
+            background-image: url('cover.jpg'); /* Image de fond pour Hawkeye */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #e0e0e0; /* Texte gris clair */
+        }
+
+        header {
+            background-color: #4a148c; /* Violet sombre pour le header */
+            color: #ffffff; /* Texte blanc */
+            text-transform: uppercase;
+            font-size: 2em;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .info-box {
+            background-color: #2e2e2eb4; /* Gris foncé */
+            border: 2px solid #4a148c; /* Violet sombre */
+            color: #ffffff;
+        }
+
+        .info-box:hover {
+            background-color: #3a3a3a; /* Gris légèrement plus clair au survol */
+        }
+
+        .history-box, .facts-box, .quotes-box {
+            background-color: #1e1a1f85; /* Gris foncé */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+        }
+
+        .history-box h2, .facts-box h2, .quotes-box h2 {
+            color: #8400ff; /* Violet sombre pour les titres */
+          
+        }
+
+        .gallery img {
+            /* centre l'image dans la galerie */
+          
+            
+           
+            
+            
+            width: 200px; /* Largeur de l'image */
+            height: 300px; /* Hauteur de l'image */
+            object-fit: contain; /* Affiche l'image entière avec des espaces si nécessaire */
+            border-radius: 8px; /* Coins arrondis */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre portée */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition pour l'effet de survol */
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #000; /* Fond noir pour les espaces vides */
+        }
+
+        .gallery img:hover {
+            background-image: url('co.jpg'); /* Image de fond au survol */
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hawkeye</h1>
+    </header>
+    <div class="info-box">
+        <h2>Infos sur Hawkeye</h2>
+        <ul>
+            <li><strong>Nom :</strong> Clint Barton</li>
+            <li><strong>Statut :</strong> Super-héros</li>
+            <li><strong>Date de naissance :</strong> 7 janvier 1971</li>
+            <li><strong>Occupation :</strong> Archer d'élite et agent du S.H.I.E.L.D.</li>
+            <li><strong>Capacités :</strong> Maîtrise exceptionnelle du tir à l'arc et des armes de précision</li>
+            <li><strong>Affiliation :</strong> Avengers</li>
+        </ul>
+    </div>
+    <div class="content">
+        <section class="history-box">
+            <h2>Histoire de Hawkeye</h2>
+            <p>
+                Clint Barton, connu sous le nom de Hawkeye, est un archer d'élite qui a rejoint les Avengers après avoir travaillé pour le S.H.I.E.L.D. 
+                Malgré son absence de super-pouvoirs, il est un membre clé de l'équipe grâce à ses compétences exceptionnelles en tir à l'arc, 
+                en combat rapproché et en stratégie. Il est également un mentor et un père de famille dévoué.
+            </p>
+        </section>
+        <section class="facts-box">
+            <h2>Faits intéressants</h2>
+            <ul>
+                <li>Hawkeye a été créé par Stan Lee et Don Heck en 1964.</li>
+                <li>Il a commencé comme un méchant avant de rejoindre les Avengers.</li>
+                <li>Son arme de prédilection est un arc équipé de flèches spécialisées (explosives, électriques, etc.).</li>
+                <li>Il a entraîné Kate Bishop, qui est devenue la nouvelle Hawkeye.</li>
+            </ul>
+        </section>
+        <section class="quotes-box">
+            <h2>Citations célèbres</h2>
+            <ul>
+                <li>"Je suis juste un gars avec un arc et des flèches."</li>
+                <li>"Tu n'as pas besoin d'être un dieu pour être un héros."</li>
+                <li>"Si je peux le voir, je peux le toucher."</li>
+                <li>"On est des Avengers. On fait ce qu'il faut."</li>
+            </ul>
+        </section>
+        <section class="gallery-box">
+            <h2>Galerie des Tenues de Hawkeye</h2>
+            <div class="gallery">
+                <img src="OIP (1).jpg" alt="Tenue classique de Hawkeye">
+                <img src="OIP.jpg" alt="Tenue moderne de Hawkeye">
+                <img src="Hawkeye_Poster_-_Civil_War.jpg" alt="Tenue de Ronin">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

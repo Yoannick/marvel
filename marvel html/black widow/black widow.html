@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Widow</title>
+    <link rel="stylesheet" href="../perso-marvel.css">
+    <style>
+        /* Couleurs spécifiques pour Black Widow */
+        body {
+            background-image: url('cover.jpg'); /* Image de fond pour Black Widow */
+            background-size: cover;
+            background-attachment: fixed; 
+            color: #e0e0e0; /* Texte gris clair */
+        }
+
+        header {
+            background-color: #b71c1c; /* Rouge sombre pour le header */
+            color: #ffffff; /* Texte blanc */
+            text-transform: uppercase;
+            font-size: 2em;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .info-box {
+            background-color: #2e2e2eb4; /* Gris foncé */
+            border: 2px solid #b71c1c; /* Rouge sombre */
+            color: #ffffff;
+        }
+
+        .info-box:hover {
+            background-color: #3a3a3a; /* Gris légèrement plus clair au survol */
+        }
+
+        .history-box, .facts-box, .quotes-box {
+            background-color: #2e2e2e3a; /* Gris foncé */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+        }
+
+        .history-box h2, .facts-box h2, .quotes-box h2 {
+            color: #b71c1c; /* Rouge sombre pour les titres */
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #000; /* Fond noir pour les espaces vides */
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Black Widow</h1>
+    </header>
+    <div class="info-box">
+        <h2>Infos sur Black Widow</h2>
+        <ul>
+            <li><strong>Nom :</strong> Natasha Romanoff</li>
+            <li><strong>Statut :</strong> Super-héroïne</li>
+            <li><strong>Date de naissance :</strong> 22 novembre 1984</li>
+            <li><strong>Occupation :</strong> Espionne et agente du S.H.I.E.L.D.</li>
+            <li><strong>Capacités :</strong> Maîtrise des arts martiaux, espionnage et manipulation</li>
+            <li><strong>Affiliation :</strong> Avengers</li>
+        </ul>
+    </div>
+    <div class="content">
+        <section class="history-box">
+            <h2>Histoire de Black Widow</h2>
+            <p>
+                Natasha Romanoff, connue sous le nom de Black Widow, est une ancienne espionne russe qui a rejoint le S.H.I.E.L.D. 
+                et les Avengers. Formée dans la Red Room, elle est une combattante redoutable et une experte en infiltration. 
+                Elle a joué un rôle clé dans la défense de la Terre et s'est sacrifiée pour récupérer la Pierre de l'Âme.
+            </p>
+        </section>
+        <section class="facts-box">
+            <h2>Faits intéressants</h2>
+            <ul>
+                <li>Black Widow a été créée par Stan Lee, Don Rico et Don Heck en 1964.</li>
+                <li>Elle a commencé comme une ennemie d'Iron Man avant de devenir une héroïne.</li>
+                <li>Elle est l'une des rares Avengers sans super-pouvoirs.</li>
+                <li>Son arme emblématique est le Widow's Bite, un bracelet électrifié.</li>
+            </ul>
+        </section>
+        <section class="quotes-box">
+            <h2>Citations célèbres</h2>
+            <ul>
+                <li>"Je fais ce que je fais de mieux : mentir et manipuler."</li>
+                <li>"Même si je n'ai pas de super-pouvoirs, je suis une Avenger."</li>
+                <li>"On a tous du sang sur les mains."</li>
+                <li>"C'est notre devoir de protéger ceux qui ne peuvent pas se protéger eux-mêmes."</li>
+            </ul>
+        </section>
+        <section class="gallery-box">
+            <h2>Galerie des Tenues de Black Widow</h2>
+            <div class="gallery">
+                <img src="natasha-romanoff-black-widow-4k-art-r4-2160x3840.jpg" alt="Tenue classique de Black Widow">
+                <img src="thumb-1920-429668.jpg" alt="Tenue moderne de Black Widow">
+                <img src="Widow_AOU_Cropped.jpg" alt="Tenue de la Red Room">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

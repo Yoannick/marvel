@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blade</title>
+    <link rel="stylesheet" href="../perso-marvel.css">
+    <style>
+        /* Couleurs spécifiques pour Blade */
+        body {
+            background-image: url('cover.jpg'); /* Image de fond pour Blade */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #e0e0e0; /* Texte gris clair */
+        }
+
+        header {
+            background-color: #000000; /* Noir pour le header */
+            color: #ff0000; /* Rouge pour le texte */
+            text-transform: uppercase;
+            font-size: 2em;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .info-box {
+            background-color: #2e2e2eb4; /* Gris foncé */
+            border: 2px solid #ff0000; /* Rouge */
+            color: #ffffff;
+        }
+
+        .info-box:hover {
+            background-color: #3a3a3a; /* Gris légèrement plus clair au survol */
+        }
+
+        .history-box, .facts-box, .quotes-box {
+            background-color: #2e2e2e3a; /* Gris foncé */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+        }
+
+        .history-box h2, .facts-box h2, .quotes-box h2 {
+            color: #ff0000; /* Rouge pour les titres */
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #000; /* Fond noir pour les espaces vides */
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blade</h1>
+    </header>
+    <div class="info-box">
+        <h2>Infos sur Blade</h2>
+        <ul>
+            <li><strong>Nom :</strong> Eric Brooks</li>
+            <li><strong>Statut :</strong> Chasseur de vampires</li>
+            <li><strong>Origine :</strong> Londres, Angleterre</li>
+            <li><strong>Occupation :</strong> Justicier</li>
+            <li><strong>Capacités :</strong> Force surhumaine, régénération, expert en combat</li>
+            <li><strong>Affiliation :</strong> Nightstalkers</li>
+        </ul>
+    </div>
+    <div class="content">
+        <section class="history-box">
+            <h2>Histoire de Blade</h2>
+            <p>
+                Eric Brooks, connu sous le nom de Blade, est un chasseur de vampires mi-humain, mi-vampire. 
+                Né après que sa mère ait été mordue par un vampire, il a juré de protéger l'humanité contre les créatures de la nuit. 
+                Armé de son épée et de ses compétences en combat, Blade est un héros redoutable dans l'univers Marvel.
+            </p>
+        </section>
+        <section class="facts-box">
+            <h2>Faits intéressants</h2>
+            <ul>
+                <li>Blade a été créé par Marv Wolfman et Gene Colan en 1973.</li>
+                <li>Il est surnommé "Le Marcheur de Jour" car il peut marcher en plein soleil contrairement aux vampires.</li>
+                <li>Il est immunisé contre les morsures de vampires.</li>
+                <li>Blade a été popularisé par la trilogie de films avec Wesley Snipes.</li>
+            </ul>
+        </section>
+        <section class="quotes-box">
+            <h2>Citations célèbres</h2>
+            <ul>
+                <li>"Certains d'entre nous doivent toujours se battre."</li>
+                <li>"Je suis ce que les vampires craignent le plus."</li>
+                <li>"Le jour appartient aux humains, la nuit est à moi."</li>
+                <li>"Je ne suis pas un héros. Je suis une arme."</li>
+            </ul>
+        </section>
+        <section class="gallery-box">
+            <h2>Galerie de Blade</h2>
+            <div class="gallery">
+                <img src="blade1.jpg" alt="Blade avec son épée">
+                <img src="blade2.jpg" alt="Blade en action">
+                <img src="blade3.jpg" alt="Blade dans les comics">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

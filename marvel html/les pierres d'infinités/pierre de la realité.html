@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre de la Réalité</title>
+    <link rel="stylesheet" href="../perso-marvel.css">
+    <style>
+        body {
+            background-image: url('reality-stone-bg.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #e0e0e0;
+        }
+
+        header {
+            background-color: #ff0000; /* Rouge */
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 2em;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .info-box {
+            background-color: #2e2e2eb4;
+            border: 2px solid #ff0000;
+            color: #ffffff;
+        }
+
+        .info-box:hover {
+            background-color: #3a3a3a;
+        }
+
+        .history-box, .facts-box, .quotes-box {
+            background-color: #2e2e2e3a;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+        }
+
+        .history-box h2, .facts-box h2, .quotes-box h2 {
+            color: #ff0000;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #000;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pierre de la Réalité</h1>
+    </header>
+    <div class="info-box">
+        <h2>Infos sur la Pierre de la Réalité</h2>
+        <ul>
+            <li><strong>Couleur :</strong> Rouge</li>
+            <li><strong>Pouvoir :</strong> Manipulation de la réalité</li>
+            <li><strong>Apparition :</strong> Éther</li>
+            <li><strong>Affiliation :</strong> Malekith, Thanos</li>
+        </ul>
+    </div>
+    <div class="content">
+        <section class="history-box">
+            <h2>Histoire de la Pierre de la Réalité</h2>
+            <p>
+                La Pierre de la Réalité, sous forme d'Éther, permet de manipuler la réalité à volonté. 
+                Elle a été utilisée par Malekith pour plonger l'univers dans les ténèbres et par Thanos pour compléter son Gant de l'Infini.
+            </p>
+        </section>
+        <section class="facts-box">
+            <h2>Faits intéressants</h2>
+            <ul>
+                <li>La Pierre de la Réalité est l'une des six Pierres d'Infinité.</li>
+                <li>Elle a été cachée par les Asgardiens après la défaite de Malekith.</li>
+                <li>Elle peut transformer la matière et altérer les lois de la physique.</li>
+                <li>Thanos l'a récupérée après avoir attaqué Knowhere.</li>
+            </ul>
+        </section>
+        <section class="quotes-box">
+            <h2>Citations célèbres</h2>
+            <ul>
+                <li>"L'Éther est une force primordiale."</li>
+                <li>"Avec la Pierre de la Réalité, tout est possible."</li>
+                <li>"Elle peut transformer l'impossible en réalité."</li>
+            </ul>
+        </section>
+        <section class="gallery-box">
+            <h2>Galerie de la Pierre de la Réalité</h2>
+            <div class="gallery">
+                <img src="reality-stone1.jpg" alt="Pierre de la Réalité sous forme d'Éther">
+                <img src="reality-stone2.jpg" alt="Pierre de la Réalité utilisée par Malekith">
+                <img src="reality-stone3.jpg" alt="Pierre de la Réalité dans le Gant de l'Infini">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

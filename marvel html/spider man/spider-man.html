@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Man</title>
+    <link rel="stylesheet" href="../perso-marvel.css">
+    <style>
+        /* Couleurs spécifiques pour Spider-Man */
+        body {
+            background-image: url('cover.jpg'); /* Image de fond pour Spider-Man */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #e0e0e0; /* Texte gris clair */
+        }
+
+        header {
+            background-color: #ff0000; /* Rouge pour le header */
+            color: #ffffff; /* Texte blanc */
+            text-transform: uppercase;
+            font-size: 2em;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .info-box {
+            background-color: #2e2e2eb4; /* Gris foncé */
+            border: 2px solid #ff0000; /* Rouge */
+            color: #ffffff;
+        }
+
+        .info-box:hover {
+            background-color: #3a3a3a; /* Gris légèrement plus clair au survol */
+        }
+
+        .history-box, .facts-box, .quotes-box {
+            background-color: #2e2e2e3a; /* Gris foncé */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+        }
+
+        .history-box h2, .facts-box h2, .quotes-box h2 {
+            color: #ff0000; /* Rouge pour les titres */
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #000; /* Fond noir pour les espaces vides */
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Spider-Man</h1>
+    </header>
+    <div class="info-box">
+        <h2>Infos sur Spider-Man</h2>
+        <ul>
+            <li><strong>Nom :</strong> Peter Parker</li>
+            <li><strong>Statut :</strong> Super-héros</li>
+            <li><strong>Origine :</strong> New York</li>
+            <li><strong>Occupation :</strong> Étudiant et photographe</li>
+            <li><strong>Capacités :</strong> Force surhumaine, agilité, sens d'araignée, création de toiles</li>
+            <li><strong>Affiliation :</strong> Avengers</li>
+        </ul>
+    </div>
+    <div class="content">
+        <section class="history-box">
+            <h2>Histoire de Spider-Man</h2>
+            <p>
+                Peter Parker, un adolescent de New York, a acquis des pouvoirs surhumains après avoir été mordu par une araignée radioactive. 
+                Devenu Spider-Man, il utilise ses capacités pour protéger les innocents et combattre le crime, tout en jonglant avec sa vie personnelle. 
+                Sa devise emblématique est : "Un grand pouvoir implique de grandes responsabilités."
+            </p>
+        </section>
+        <section class="facts-box">
+            <h2>Faits intéressants</h2>
+            <ul>
+                <li>Spider-Man a été créé par Stan Lee et Steve Ditko en 1962.</li>
+                <li>Il est l'un des héros les plus populaires de Marvel.</li>
+                <li>Il a affronté des vilains emblématiques comme le Bouffon Vert, Dr Octopus et Venom.</li>
+                <li>Il a rejoint les Avengers dans l'univers cinématographique Marvel.</li>
+            </ul>
+        </section>
+        <section class="quotes-box">
+            <h2>Citations célèbres</h2>
+            <ul>
+                <li>"Un grand pouvoir implique de grandes responsabilités."</li>
+                <li>"Je fais ce que je peux, parce que c'est ce que je dois faire."</li>
+                <li>"Je suis juste un gars de Queens."</li>
+                <li>"Les héros sont ceux qui font ce qu'ils peuvent."</li>
+            </ul>
+        </section>
+        <section class="gallery-box">
+            <h2>Galerie de Spider-Man</h2>
+            <div class="gallery">
+                <img src="sp.jpg" alt="Spider-Man en action">
+                <img src="id.jpg" alt="Spider-Man avec son costume classique">
+                <img src="er.jpg" alt="Spider-Man dans l'univers cinématographique Marvel">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

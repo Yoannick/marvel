@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daredevil</title>
+    <link rel="stylesheet" href="../perso-marvel.css">
+    <style>
+        /* Couleurs spécifiques pour Daredevil */
+        body {
+            background-image: url('cover.jpg'); /* Image de fond pour Daredevil */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #e0e0e0; /* Texte gris clair */
+        }
+
+        header {
+            background-color: #8b0000; /* Rouge sombre pour le header */
+            color: #ffffff; /* Texte blanc */
+            text-transform: uppercase;
+            font-size: 2em;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .info-box {
+            background-color: #2e2e2eb4; /* Gris foncé */
+            border: 2px solid #8b0000; /* Rouge sombre */
+            color: #ffffff;
+        }
+
+        .info-box:hover {
+            background-color: #3a3a3a; /* Gris légèrement plus clair au survol */
+        }
+
+        .history-box, .facts-box, .quotes-box {
+            background-color: #2e2e2e3a; /* Gris foncé */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+        }
+
+        .history-box h2, .facts-box h2, .quotes-box h2 {
+            color: #8b0000; /* Rouge sombre pour les titres */
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #000; /* Fond noir pour les espaces vides */
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daredevil</h1>
+    </header>
+    <div class="info-box">
+        <h2>Infos sur Daredevil</h2>
+        <ul>
+            <li><strong>Nom :</strong> Matt Murdock</li>
+            <li><strong>Statut :</strong> Super-héros</li>
+            <li><strong>Origine :</strong> Hell's Kitchen, New York</li>
+            <li><strong>Occupation :</strong> Avocat</li>
+            <li><strong>Capacités :</strong> Sens surdéveloppés, maître des arts martiaux</li>
+            <li><strong>Affiliation :</strong> Défenseurs</li>
+        </ul>
+    </div>
+    <div class="content">
+        <section class="history-box">
+            <h2>Histoire de Daredevil</h2>
+            <p>
+                Matt Murdock a perdu la vue dans un accident impliquant des produits chimiques, mais a développé des sens surhumains. 
+                Avocat le jour et justicier la nuit, il protège Hell's Kitchen sous le nom de Daredevil. 
+                Il est connu pour son sens aigu de la justice et sa détermination à défendre les innocents.
+            </p>
+        </section>
+        <section class="facts-box">
+            <h2>Faits intéressants</h2>
+            <ul>
+                <li>Daredevil a été créé par Stan Lee et Bill Everett en 1964.</li>
+                <li>Il est surnommé "L'Homme sans peur".</li>
+                <li>Il a affronté des vilains emblématiques comme le Caïd et Bullseye.</li>
+                <li>Il est membre des Défenseurs aux côtés de Jessica Jones, Luke Cage et Iron Fist.</li>
+            </ul>
+        </section>
+        <section class="quotes-box">
+            <h2>Citations célèbres</h2>
+            <ul>
+                <li>"La justice est aveugle, mais je ne le suis pas."</li>
+                <li>"Je protège ceux qui ne peuvent pas se protéger eux-mêmes."</li>
+                <li>"Je ne suis pas un héros. Je suis Daredevil."</li>
+                <li>"Hell's Kitchen est ma maison, et je la défendrai."</li>
+            </ul>
+        </section>
+        <section class="gallery-box">
+            <h2>Galerie de Daredevil</h2>
+            <div class="gallery">
+                <img src="Icon_Daredevil.webp" alt="Daredevil en action">
+                <img src="daredevil2.jpg" alt="Daredevil avec son costume">
+                <img src="daredevil3.jpg" alt="Daredevil dans les comics">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

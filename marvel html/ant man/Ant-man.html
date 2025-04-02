@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../perso-marvel.css">
+    <title>Ant-Man</title>
+    <style>
+        /* Couleurs spécifiques pour Ant-Man */
+        body {
+            background-image: url(cover.jpg); /* Fond noir/gris foncé */
+            color: #e0e0e0; /* Texte gris clair */
+        }
+
+        header {
+            background-color: #b71c1c; /* Rouge sombre pour le header */
+            color: #ffffff; /* Texte blanc */
+            text-transform: uppercase;
+            font-size: 2em;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .info-box {
+            background-color: #2e2e2eb4; /* Gris foncé */
+            border: 2px solid #b71c1c; /* Rouge sombre */
+            color: #ffffff;
+        }
+
+        .info-box:hover {
+            background-color: #3a3a3a; /* Gris légèrement plus clair au survol */
+        }
+
+        .history-box, .facts-box, .quotes-box {
+            background-color: #2e2e2e3a; /* Gris foncé */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+        }
+
+        .history-box h2, .facts-box h2, .quotes-box h2 {
+            color: #b71c1c; /* Rouge sombre pour les titres */
+        }
+
+        /* Styles pour la galerie */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 400px;
+            height: 300px;
+            object-fit: contain; /* Affiche l'image entière avec des espaces si nécessaire */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #000; /* Fond noir pour les espaces vides */
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            background-image: url('../iron-man/co.jpg'); /* Image de fond au survol */
+            background-position: center; /* Centre l'image de fond */
+            background-size: cover; /* Recouvre l'image de fond */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ant-Man</h1>
+    </header>
+    <div class="info-box">
+        <h2>Infos sur Ant-Man</h2>
+        <ul>
+            <li><strong>Nom :</strong> Scott Lang</li>
+            <li><strong>Statut :</strong> Super-héros</li>
+            <li><strong>Date de naissance :</strong> 6 avril 1969</li>
+            <li><strong>Occupation :</strong> Ingénieur et ancien cambrioleur</li>
+            <li><strong>Capacités :</strong> Rétrécissement et agrandissement grâce aux particules Pym</li>
+            <li><strong>Affiliation :</strong> Avengers</li>
+        </ul>
+    </div>
+    <div class="content">
+        <section class="history-box">
+            <h2>Histoire d'Ant-Man</h2>
+            <p>
+                Scott Lang, un ancien cambrioleur, a été recruté par Hank Pym pour devenir le nouveau Ant-Man. 
+                Grâce à un costume spécial, il peut rétrécir à une taille minuscule tout en augmentant sa force. 
+                Il a joué un rôle clé dans la bataille contre Thanos en utilisant le royaume quantique pour voyager dans le temps.
+            </p>
+        </section>
+        <section class="facts-box">
+            <h2>Faits intéressants</h2>
+            <ul>
+                <li>Ant-Man a été créé par Stan Lee, Larry Lieber et Jack Kirby en 1962.</li>
+                <li>Le premier Ant-Man était Hank Pym, un scientifique brillant.</li>
+                <li>Scott Lang a volé le costume d'Ant-Man pour sauver sa fille avant de devenir un héros.</li>
+                <li>Le royaume quantique est une dimension clé dans ses aventures.</li>
+            </ul>
+        </section>
+        <section class="quotes-box">
+            <h2>Citations célèbres</h2>
+            <ul>
+                <li>"Je fais partie des Avengers maintenant !"</li>
+                <li>"C'est pas moi, c'est le costume !"</li>
+                <li>"On va sauver le monde... encore."</li>
+                <li>"Le royaume quantique, c'est plus qu'une théorie."</li>
+            </ul>
+        </section>
+        <section class="gallery-box">
+            <h2>Galerie des Tenues d'Ant-Man</h2>
+            <div class="gallery">
+                <img src="Hank-Pym-Cover.jpg" alt="Tenue Ant-Man 1">
+                <img src="Giant-Man.webp" alt="Tenue Ant-Man 2">
+                <img src="tenue 2.jpg" alt="Tenue Giant-Man">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

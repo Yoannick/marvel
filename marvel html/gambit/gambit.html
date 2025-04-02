@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gambit</title>
+    <link rel="stylesheet" href="../perso-marvel.css">
+    <style>
+        /* Couleurs spécifiques pour Gambit */
+        body {
+            background-image: url('cover.jpg'); /* Image de fond pour Gambit */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #e0e0e0; /* Texte gris clair */
+        }
+
+        header {
+            background-color: #800080; /* Violet sombre pour le header */
+            color: #ffffff; /* Texte blanc */
+            text-transform: uppercase;
+            font-size: 2em;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .info-box {
+            background-color: #2e2e2eb4; /* Gris foncé */
+            border: 2px solid #800080; /* Violet sombre */
+            color: #ffffff;
+        }
+
+        .info-box:hover {
+            background-color: #3a3a3a; /* Gris légèrement plus clair au survol */
+        }
+
+        .history-box, .facts-box, .quotes-box {
+            background-color: #2e2e2e3a; /* Gris foncé */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            color: #ffffff;
+        }
+
+        .history-box h2, .facts-box h2, .quotes-box h2 {
+            color: #800080; /* Violet sombre pour les titres */
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #000; /* Fond noir pour les espaces vides */
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gambit</h1>
+    </header>
+    <div class="info-box">
+        <h2>Infos sur Gambit</h2>
+        <ul>
+            <li><strong>Nom :</strong> Remy LeBeau</li>
+            <li><strong>Statut :</strong> Super-héros</li>
+            <li><strong>Origine :</strong> Nouvelle-Orléans, Louisiane</li>
+            <li><strong>Occupation :</strong> Voleur et membre des X-Men</li>
+            <li><strong>Capacités :</strong> Manipulation d'énergie cinétique, expert en combat au bâton</li>
+            <li><strong>Affiliation :</strong> X-Men</li>
+        </ul>
+    </div>
+    <div class="content">
+        <section class="history-box">
+            <h2>Histoire de Gambit</h2>
+            <p>
+                Remy LeBeau, connu sous le nom de Gambit, est un mutant capable de charger des objets avec de l'énergie cinétique, 
+                les transformant en projectiles explosifs. Ancien voleur, il a rejoint les X-Men et est devenu un membre clé de l'équipe. 
+                Son charme, son accent cajun et son amour pour Rogue en font un personnage unique et apprécié.
+            </p>
+        </section>
+        <section class="facts-box">
+            <h2>Faits intéressants</h2>
+            <ul>
+                <li>Gambit a été créé par Chris Claremont et Jim Lee en 1990.</li>
+                <li>Son arme de prédilection est un bâton extensible.</li>
+                <li>Il est connu pour utiliser des cartes à jouer comme projectiles explosifs.</li>
+                <li>Il a été élevé par la Guilde des Voleurs de Nouvelle-Orléans.</li>
+            </ul>
+        </section>
+        <section class="quotes-box">
+            <h2>Citations célèbres</h2>
+            <ul>
+                <li>"Le nom's Gambit, et je joue pour gagner."</li>
+                <li>"Les cartes ne mentent jamais, mon ami."</li>
+                <li>"Je suis peut-être un voleur, mais je suis aussi un X-Man."</li>
+                <li>"Rogue, tu es la seule chose qui compte pour moi."</li>
+            </ul>
+        </section>
+        <section class="gallery-box">
+            <h2>Galerie de Gambit</h2>
+            <div class="gallery">
+                <img src="1689921.jpg" alt="Gambit avec des cartes chargées">
+                <img src="gambit2.jpg" alt="Gambit en action">
+                <img src="gambit3.jpg" alt="Gambit dans les comics">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
